@@ -9,8 +9,7 @@ h1 {
   font-style: normal; }
 
 body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   font-family: Poppins, Open Sans, sans-serif;
   background: #eee; }
@@ -19,26 +18,20 @@ body {
   background: #2c2c2c;
   color: #fff;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between; }
 
 .header-list {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
   height: 120px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
   margin-left: 228px; }
 
@@ -47,12 +40,10 @@ body {
 
 .nav-list {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 .nav-list__elem {
   font-style: normal;
@@ -74,11 +65,9 @@ body {
   text-transform: uppercase;
   color: #fff;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 60px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center; }
 
 .nav-list__link.is-active,
@@ -103,23 +92,18 @@ body {
 
 .header-content {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative; }
 
 .header-info {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
   color: #fff;
   margin-bottom: 205px;
@@ -146,8 +130,7 @@ body {
   font-size: 15px;
   line-height: 22px;
   text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 226px;
   height: 50px;
   background: #2060f6;
