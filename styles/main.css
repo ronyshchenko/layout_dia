@@ -162,6 +162,12 @@ h1 {
     bottom: 70px;
     left: 90px;
     cursor: pointer; }
+  .header__slider_arrow_left:hover, .header__slider_arrow_right:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); }
+  .header__slider_arrow_left:active, .header__slider_arrow_right:active {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
 
 .about {
   display: -webkit-box;
@@ -303,29 +309,6 @@ h1 {
   position: absolute;
   right: 320px;
   top: 290px; }
-  @media screen and (max-width: 1024px) {
-    .process__cards {
-      right: 250px;
-      top: 230px; } }
-  @media screen and (max-width: 768px) {
-    .process__cards {
-      top: 550px;
-      right: 350px; } }
-  @media screen and (max-width: 414px) {
-    .process__cards {
-      right: 335px; } }
-  @media screen and (max-width: 375px) {
-    .process__cards {
-      right: 322px; } }
-  @media screen and (max-width: 375px) {
-    .process__cards {
-      right: 320px; } }
-  @media screen and (max-width: 360px) {
-    .process__cards {
-      right: 321px; } }
-  @media screen and (max-width: 320px) {
-    .process__cards {
-      right: 323px; } }
 
 .process__card_1, .process__card_2, .process__card_3, .process__card_4 {
   width: 264px;
@@ -396,6 +379,9 @@ h1 {
   max-width: 200px;
   line-height: 1.5em; }
 
+.process__item-lists {
+  list-style-type: none; }
+
 .process__card_more {
   font-weight: 600;
   font-size: 15px;
@@ -422,6 +408,10 @@ h1 {
   border-radius: 50%;
   position: absolute;
   left: -50px; }
+
+.process__card_more:hover:before {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
 
 * {
   margin: 0;
