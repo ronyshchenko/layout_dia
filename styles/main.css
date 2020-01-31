@@ -162,10 +162,10 @@ h1 {
     bottom: 70px;
     left: 90px;
     cursor: pointer; }
-  .header__slider_arrow_left:hover, .header__slider_arrow_right:hover {
+  .header__slider_arrow_left:hover, .header__slider_arrow_right:hover, .header__logo:hover, .header__navbar_link_last:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1); }
-  .header__slider_arrow_left:active, .header__slider_arrow_right:active {
+  .header__slider_arrow_left:active, .header__slider_arrow_right:active, .header__logo:active, .header__navbar_link_last:active {
     -webkit-transform: scale(0.8);
             transform: scale(0.8); }
 
